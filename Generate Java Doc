@@ -1,0 +1,25 @@
+/<--------- ADVANCED JAVA 2 ----------->#Vid_106
+
+// You Can Use HTML Code 
+/**
+ * This class is to demonstrate what javadoc is and how it is used in the java industry
+ *  This is <i>italic</i> word<p>this is a new paragraph</p>
+ *  <h2>hellO java </h2>
+ * @author Harry (codeWithRohit)
+ * @version 0.2
+ * @since 2024
+ * @see <a href="https://docs.oracle.com/en/java/javase/14/docs/api/index.html" target="_blank">Java Docs</a>
+ * @see <a href="https://www.tesla.com/"></a>
+ */
+
+public class AdvanceJava_2{ // Koi Bhi java Comment Ush Method ke uper Likha hai samjho ki ham ush method ka
+    // baat kar rahe hai
+    public void add(int a,int b){
+        System.out.println("the Sum of: "+a+b);
+    }
+    public static void main(String[] args) {
+        System.out.println("This is my Methods ");
+
+
+    }
+}
