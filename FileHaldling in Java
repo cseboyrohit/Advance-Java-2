@@ -1,0 +1,76 @@
+
+  // Java file File handling to create the file  
+ // step 1: create the
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.FileWriter;
+import java.util.*;
+
+import javax.sound.sampled.SourceDataLine;
+public class Question {
+public static void main(String[] args) {
+    
+//     File myfile = new File("CodewithRohit.txt");
+//     try{
+//         myfile.createNewFile();
+//     }
+//     catch(IOException e){
+//        e.printStackTrace();
+//     }
+// }
+// }
+
+/* 
+// Step 2: write to file
+
+File writemyFile= new File("CodewithRohit.txt"); // This is Optional 
+try{
+    FileWriter writerfile= new FileWriter("CodewithRohit.txt");
+     writerfile.write(("Hello I am Rohit kumar this code is wittern by rohit..\n you want to chnage this code \nyou want to write anything  "));
+     writerfile.write("you can @override write methiod\n");
+     writerfile.write("Coding Math Formula Link:  "+"https://www.geeksforgeeks.org/basic-math-formulas/");
+     System.out.println("Code sucessfully Run Code");
+     writerfile.close();
+}
+catch(IOException e){
+    e.printStackTrace();
+   }
+ }
+}
+*/
+
+/* 
+   //Step: 3 Reading file
+   // Java file File handling to read the file
+    File myFile= new File("CodewithRohit.txt");
+    try{
+        Scanner readFile= new Scanner(myFile);
+        while(readFile.hasNextLine()){
+            String line = readFile.nextLine();
+            System.out.println(line);
+        }
+        System.out.println("YEs you want to read filre");
+        readFile.close();  //Close File Always Out of While loop
+        }
+        catch(FileNotFoundException e){
+            e.printStackTrace();
+    }
+
+  }
+}
+*/
+
+// Step: 4 Delete File
+   // Java file File handling to delete the file
+   // Delect file not Throw Exception
+   File delectFile= new File("CodewithRohit2.txt");
+   if( delectFile.delete()){
+    System.out.println("This file is delected Suceesfully");
+   }
+  else{ 
+    System.out.println("File is not deleted");
+      }
+  }
+    
+}
