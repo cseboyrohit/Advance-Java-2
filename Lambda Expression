@@ -1,0 +1,35 @@
+// Video no 109 Code
+
+@FuncationalInterface // One Metod addd only
+interface Anaimal{
+    void eat();
+   // void drink(); // Produces Eroor
+}
+ interface room {
+
+     void bed(int a,int b);
+
+ }
+public class lembda_Vid_109{
+    public static void main(String[] args) {
+//         // Anonymouse Class 
+//       Anaimal animal= new Anaimal() {
+//      @Override
+//      public void eat(){
+//         System.out.println("lion roar");
+//      }
+//     };
+// animal.eat(); 
+  
+//     }
+// }
+
+
+      // Lambda class 
+
+      room rm= (a,b)->{System.out.println("WOw nice room");};
+         rm.bed(12,23);
+        
+
+    }
+}
